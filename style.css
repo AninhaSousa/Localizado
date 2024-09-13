@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://media.istockphoto.com/id/1328564810/pt/vídeo/animated-outline-map-of-brazil-with-states.jpg?s=640x640&k=20&c=3fKHM1ur4-d7lBhCwKx98YoAFMivUVWDWTEX3_qxEDI=');
+    background-size: cover;
+    font-size: "Lora", serif;
+    
+}
+
+h1{
+    color: #ebebeb; 
+    font-family: "Lora", serif;
+}
+
+label{
+    color: #ebebeb;
+    font-size: 20px;
+}
+
+main{
+    margin-top: 200px;
+
+}
+
+label{
+    margin-left: 30px;
+}
+
+select {
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #00ccff;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+button {
+    padding: 10px 20px;
+    border-radius: 5cap;
+    border-color: #3cedfa;
+    background-color: #1543dd;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 10px
+   
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+

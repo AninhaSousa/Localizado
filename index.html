@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./favicon-16x16.png""
+    <title> UF-Cidade</title>
+       
+</head>
+<body>
+    <main>
+        <h1>Selecione o Estado e Cidade</h1>
+
+        <label for="estado">Estado:</label>
+        <select id="estado" onchange="estadoSelecionado()">
+            <option value="">Selecione um estado</option>
+        </select>
+    
+        <br><br>
+    
+        <label for="cidade">Cidade:</label>
+        <select id="cidade">
+            <option value="">Selecione uma cidade</option>
+        </select>
+        <button id="searchButton">Buscar</button>
+        
+    </main>
+   
+</body>
+<script src="script.js"></script>
+</html>
